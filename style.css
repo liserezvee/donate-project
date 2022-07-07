@@ -1,0 +1,226 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: url(/images/donation13.jpg);
+    height: 70vh;
+    display: flex;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head-section{
+text-align: center;
+align-items: center;
+margin: auto;
+}
+.head-section h1{
+    color: rgb(249, 249, 249);
+    font-weight: bolder;
+    font-size: 3em;
+    color: rgb(233, 226, 226);
+    
+}
+.head-section p{
+    color: aliceblue;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.btn{
+    background-color: rgb(202, 67, 18);
+    padding: 15px;
+    font-weight:bold;
+    font-size: smaller;
+   margin-top: 5px;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+}
+.btn:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(23, 33, 30);
+}
+.donate-section{
+    text-align: center;
+align-items: center;
+margin: auto;
+margin-top: 20px;
+width: 60%;
+height: 56vh;
+}
+.donate-header{
+    
+    justify-content: center;
+}
+.donate-header h1{
+    color: brown;
+    font-size: 2em;
+}
+.donate-header p{
+    font-size: small;    
+}
+.donation-amount{
+    display:flex ;
+    justify-content: center;
+}
+.donation-amount h4{
+    padding-right: 30px;
+padding: 16px;
+margin: 10px;
+cursor: pointer;
+background-color: rgb(221, 228, 234);
+border-radius: 5px;
+}
+.donation-amount h4:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(23, 33, 30);
+}
+.donate-btn input{   
+    padding: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+.donate-now{
+    background-color: rgb(202, 67, 18);
+    padding: 15px;
+    font-weight:bold;
+    font-size: smaller;
+   margin-top: 5px;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+}
+.donate-now:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(23, 33, 30);
+}
+.plan-header h1{
+    text-align: center;
+    color: brown;
+    font-size: 2em;
+}
+.plan-header p{
+    text-align: center;
+    padding-bottom: 5px;
+    
+}
+.plan-section{
+    text-align: center;
+align-items: center;
+margin: auto;
+margin-top: 5px;
+margin-bottom: 5px;
+height: 50vh;
+width: 66%;
+display: flex;
+}
+.icon{
+width: 30px;
+margin-top: 5px;
+padding-top: 10px;
+
+}
+.plan-section-one{
+        margin-left: 5px;
+    margin-right: 5px;
+    border: 2px solid rgb(65, 55, 74);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+.plan-section-one h2{
+    color: brown;
+}
+.plan-section-two{
+    margin-right: 5px;
+    border: 2px solid rgb(65, 55, 74);
+    border-radius: 5px;
+    background-color:rgb(255, 255, 255);
+    width: 100%;
+}
+.plan-section-two h2{
+    color: brown;
+}
+.plan-section-three{
+    margin-right: 5px;
+    border:2px solid rgb(65, 55, 74);
+    border-radius: 5px;
+    width: 100%;
+    background-color:rgb(255, 255, 255) ;
+}
+.plan-section-three h2{
+    color: brown;
+}
+.contribute-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    height: 50vh;
+    width: 66%;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-bottom: 15px;
+}
+.half-width{
+    width: 100%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+}
+.half-width h3{
+    color: brown;
+    font-size: 2em;
+}
+.half-width p{
+    padding-bottom: 10px;
+}
+.anchor-button{
+    background-color: rgb(202, 67, 18);
+    padding: 15px;
+    font-weight:bold;
+    font-size: smaller;
+   margin-top: 5px;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+}
+.anchor-button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(23, 33, 30);
+}
+.footer{
+    display:flex ;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(252, 250, 248);
+}
+.footer-left{
+    margin:  auto;
+}
+.footer-left h1{
+    font-size: 2em; color: brown;
+    
+}
+.footer-right{
+    margin-right: auto;
+}
+.footer-right h2{
+    font-size: 2em;
+    color: brown;
+    font-size: 2em;
+}
